@@ -17,7 +17,7 @@ def A(m, n):
     else:
         return 2 * A(m, (n - 1) // 2) + m
 
-calls = -1 #starts at -1 because the script caunts a start function as a call                             
+calls = -1 #starts at -1 because the script counts a start function as a call                             
 print(A(3, 9), calls)
 calls = -1
 print(A(pow(2, 5), pow(2, 5)), calls)

@@ -4,7 +4,7 @@ e = [] # Employee
 s = [] # Supervisor
 
 lines = 0
-with open("Dane-NF-2605/korpo.txt") as korpo:
+with open("korpo.txt") as korpo:
     for line in korpo:
         lines += 1
         line = line.strip()

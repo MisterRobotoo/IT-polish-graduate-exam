@@ -3,7 +3,7 @@ w = 0
 pairs = []
 words = []
 
-with open("Dane-NF-2605/pary.txt", "r") as pp:
+with open("pary.txt", "r") as pp:
     for line in pp:
         lines += 1
         line = line.strip()
